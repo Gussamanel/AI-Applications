@@ -1,10 +1,23 @@
-# Multi-domain Dialog System
+# 💬 Multi-Domain Conversational Dialog System
 
-A rule-based conversational assistant for restaurant recommendations, weather queries, and flight booking. It uses keyword matching and extracted entities to query pandas dataframes while retaining session context.
+[![Domain](https://img.shields.io/badge/Domain-Conversational%20AI-purple.svg)]()
+[![Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Pandas%20%7C%20Regex-blue.svg)]()
 
-## Contents
+[⬅ Back to Main Portfolio](../../README.md)
 
-- [source-listing.md](source-listing.md): extracted code-bearing pages
-- [report-extracted.txt](report-extracted.txt): complete searchable report
+## 📌 Overview
+A multi-intent rule-based conversational dialog manager that provides assistance across three separate domains: restaurant search, flight bookings, and weather forecasts. The system manages dialogue session state, handles multi-turn slot filling, and queries structured dataframes to satisfy user requests.
 
-The implementation references restaurant, weather, and travel datasets that are not present in the source folder. Expected dependencies include pandas, NLTK, python-dateutil, and the NLTK WordNet/tokenizer data.
+## 🛠️ Tech Stack & Methodology
+- **Core Logic**: Python, Regular Expressions (`re`) for intent recognition and entity extraction
+- **Data Retrieval**: `pandas` dataframe filtering and conditional querying
+- **Dialogue Engine**: Finite State Machine handling session context, entity verification, and fallback prompts
+
+## 📁 Folder Contents
+- [`source-listing.md`](source-listing.md): Extracted Python code cells (pages 6-17)
+- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the report
+- **Original PDF**: [`reports/annotated-vertopal.com_Final_A6.pdf`](../../reports/annotated-vertopal.com_Final_A6.pdf)
+
+## ⚡ Data & Dependencies
+- **Dependencies**: `pandas`, `numpy`
+- **Data Note**: Queries local CSV dataframes for restaurants, flight schedules, and weather reports. Ensure dataset paths match local environment before execution.
