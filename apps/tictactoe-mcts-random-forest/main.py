@@ -1,8 +1,3 @@
-# Clean Source Listing: `tictactoe-mcts-random-forest`
-
-This listing contains the cleaned, standardized Python implementation extracted from the PDF report.
-
-```python
 """
 Hybrid Tic-Tac-Toe MCTS + Random Forest Agent
 Authors: Elias Samantzis & Emrik Dunvald (Group 65)
@@ -236,4 +231,3 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print("Dataset note: Run standalone MCTS demo (place tictactoe_games.csv to enable RF training).")
         play_demo_game(model=None, ratio=0.0)
-```

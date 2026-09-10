@@ -13,11 +13,14 @@ A multi-intent rule-based conversational dialog manager that provides assistance
 - **Data Retrieval**: `pandas` dataframe filtering and conditional querying
 - **Dialogue Engine**: Finite State Machine handling session context, entity verification, and fallback prompts
 
-## 📁 Folder Contents
-- [`source-listing.md`](source-listing.md): Extracted Python code cells (pages 6-17)
-- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the report
+## 📁 Files & Structure
+- [`main.py`](main.py): Clean, standalone Python executable code file.
+- [`source-listing.md`](source-listing.md): Extracted Python source code with syntax highlighting.
+- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the original report.
 - **Original PDF**: [`reports/annotated-vertopal.com_Final_A6.pdf`](../../reports/annotated-vertopal.com_Final_A6.pdf)
 
-## ⚡ Data & Dependencies
-- **Dependencies**: `pandas`, `numpy`
-- **Data Note**: Queries local CSV dataframes for restaurants, flight schedules, and weather reports. Ensure dataset paths match local environment before execution.
+## ⚡ Execution & Dependencies
+```bash
+python main.py
+```
+- **Dependencies**: `pandas`, `numpy`, `nltk`, `python-dateutil`

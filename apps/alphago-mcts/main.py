@@ -1,8 +1,3 @@
-# Clean Source Listing: `alphago-mcts`
-
-This listing contains the cleaned, standardized Python implementation extracted from the PDF report.
-
-```python
 """
 AlphaGo-Inspired Monte Carlo Tree Search (MCTS) Implementation
 Authors: Elias Samantzis & Emrik Dunvald (Group 65)
@@ -196,4 +191,3 @@ if __name__ == "__main__":
     stats = evaluate_mcts(size=3, iterations=1000, games=10)
     df_stats = pd.DataFrame([stats])
     print(df_stats.to_string(index=False))
-```

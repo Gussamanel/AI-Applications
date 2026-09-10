@@ -10,14 +10,17 @@ An advanced hybrid game-playing framework combining Monte Carlo Tree Search (MCT
 
 ## 🛠️ Tech Stack & Methodology
 - **Tree Search**: MCTS tree expansion and node selection
-- **ML Estimator**: `scikit-learn` `RandomForestRegressor` trained on extracted board feature representations
+- **ML Estimator**: `scikit-learn` `RandomForestClassifier` trained on extracted board feature representations
 - **Evaluation Weighting**: Weighted combinations of MCTS simulation statistics ($w_{MCTS}$) and Random Forest evaluation outputs ($w_{RF}$)
 
-## 📁 Folder Contents
-- [`source-listing.md`](source-listing.md): Extracted Python code cells (pages 6-14)
-- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the report
+## 📁 Files & Structure
+- [`main.py`](main.py): Clean, standalone Python executable code file.
+- [`source-listing.md`](source-listing.md): Extracted Python source code with syntax highlighting.
+- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the original report.
 - **Original PDF**: [`reports/annotated-Final_Report_A8.pdf`](../../reports/annotated-Final_Report_A8.pdf)
 
-## ⚡ Data & Dependencies
-- **Dependencies**: `scikit-learn`, `numpy`, `pandas`
-- **Data Note**: Trains on generated/saved game state evaluation datasets.
+## ⚡ Execution & Dependencies
+```bash
+python main.py
+```
+- **Dependencies**: `scikit-learn`, `numpy`, `pandas`, `joblib`, `tqdm`

@@ -1,8 +1,3 @@
-# Clean Source Listing: `movie-recommender`
-
-This listing contains the cleaned, standardized Python implementation extracted from the PDF report.
-
-```python
 """
 Content-Based Movie Recommender System
 Authors: Elias Samantzis & Emrik Dunvald (Group 65)
@@ -95,4 +90,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```

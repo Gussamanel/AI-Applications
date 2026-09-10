@@ -9,15 +9,18 @@
 An unsupervised machine learning research project evaluating K-Means clustering performance and dataset distribution shift. The model is trained on air quality measurements from northern Chinese cities (Beijing & Shenyang) and tested on southern cities (Guangzhou & Shanghai) to analyze cross-geographic generalization and model stability.
 
 ## 🛠️ Tech Stack & Methodology
-- **Clustering Algorithm**: Scikit-Learn `KMeans`
+- **Clustering Algorithm**: Scikit-Learn `KMeans` / Custom `KmeansClassifier`
 - **Feature Processing**: Normalization and multi-pollutant feature matrix scaling
 - **Evaluation**: Inertia, silhouette score comparison across training vs. out-of-distribution evaluation cities
 
-## 📁 Folder Contents
-- [`source-listing.md`](source-listing.md): Extracted Python code cells (pages 3-6)
-- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the report
+## 📁 Files & Structure
+- [`main.py`](main.py): Clean, standalone Python executable code file.
+- [`source-listing.md`](source-listing.md): Extracted Python source code with syntax highlighting.
+- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the original report.
 - **Original PDF**: [`reports/annotated-Assignment7.pdf`](../../reports/annotated-Assignment7.pdf)
 
-## ⚡ Data & Dependencies
-- **Dependencies**: `scikit-learn`, `pandas`, `numpy`, `matplotlib`
-- **Data Note**: Expects `Beijing_labeled.csv`, `Shenyang_labeled.csv`, `Guangzhou_labeled.csv`, and `Shanghai_labeled.csv`.
+## ⚡ Execution & Dependencies
+```bash
+python main.py
+```
+- **Dependencies**: `scikit-learn`, `pandas`, `numpy`

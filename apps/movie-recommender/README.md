@@ -14,11 +14,14 @@ A personalized content-based recommendation system that analyzes movie genre met
 - **Similarity Metric**: Cosine similarity between user profile vector and unrated candidate film vectors
 - **Implementation**: Python, `pandas`, `numpy`, `scikit-learn`
 
-## 📁 Folder Contents
-- [`source-listing.md`](source-listing.md): Extracted Python code cells (pages 4-5)
-- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the report
+## 📁 Files & Structure
+- [`main.py`](main.py): Clean, standalone Python executable code file.
+- [`source-listing.md`](source-listing.md): Extracted Python source code with syntax highlighting.
+- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the original report.
 - **Original PDF**: [`reports/annotated-Module%202.pdf`](../../reports/annotated-Module%202.pdf)
 
-## ⚡ Data & Dependencies
+## ⚡ Execution & Dependencies
+```bash
+python main.py
+```
 - **Dependencies**: `pandas`, `numpy`, `scikit-learn`
-- **Data Note**: Expects `movies.csv` and `user_reviews.csv` formatted with genre indicators (`genre_*`).

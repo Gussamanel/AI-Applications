@@ -15,11 +15,15 @@ An end-to-end PyTorch deep learning pipeline for land-cover classification on Po
 - **Validation Strategy**: Spatial K-Fold cross-validation (splitting train/val tiles by geographic coordinates rather than random sampling)
 - **Data Format**: Multi-channel GeoTIFF tensors
 
-## 📁 Folder Contents
-- [`source-listing.md`](source-listing.md): Extracted Python code cells (pages 1-24)
-- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the report
+## 📁 Files & Structure
+- [`main.py`](main.py): Clean, standalone Python executable code file.
+- [`source-listing.md`](source-listing.md): Extracted Python source code with syntax highlighting.
+- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the original report.
 - **Original PDF**: [`reports/annotated-Assignment5-1.pdf`](../../reports/annotated-Assignment5-1.pdf)
 
-## ⚡ Data & Dependencies
-- **Dependencies**: `torch`, `torchvision`, `numpy`, `rasterio` / `PIL`, `scikit-learn`
-- **Data Note**: Expects Potsdam GeoTIFF dataset tiles (`Potsdam-GeoTif/*.tif`). Update file paths before running local training scripts.
+## ⚡ Execution & Dependencies
+```bash
+python main.py
+```
+- **Dependencies**: `torch`, `torchvision`, `numpy`, `rasterio` (optional), `scikit-learn`
+- **Data Note**: Expects Potsdam GeoTIFF dataset tiles (`Potsdam-GeoTif/*.tif`).

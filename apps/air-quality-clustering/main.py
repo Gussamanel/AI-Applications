@@ -1,8 +1,3 @@
-# Clean Source Listing: `air-quality-clustering`
-
-This listing contains the cleaned, standardized Python implementation extracted from the PDF report.
-
-```python
 """
 Air-Quality K-Means Clustering & Distribution Shift Analysis
 Authors: Elias Samantzis & Emrik Dunvald (Group 65)
@@ -121,4 +116,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```

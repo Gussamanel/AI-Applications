@@ -11,13 +11,16 @@ A game-playing agent inspired by AlphaGo's tree search mechanism. It implements 
 ## 🛠️ Tech Stack & Methodology
 - **Algorithm**: Monte Carlo Tree Search (Selection, Expansion, Simulation/Rollout, Backpropagation)
 - **Selection Policy**: UCT (Upper Confidence Bound applied to Trees) formula balancing exploitation of high-win nodes and exploration of unvisited nodes
-- **Language & Libraries**: Pure Python, `numpy` matrix calculations
+- **Language & Libraries**: Pure Python, `numpy`, `pandas`
 
-## 📁 Folder Contents
-- [`source-listing.md`](source-listing.md): Extracted Python code cells (pages 1-10)
-- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the report
+## 📁 Files & Structure
+- [`main.py`](main.py): Clean, standalone Python executable code file.
+- [`source-listing.md`](source-listing.md): Extracted Python source code with syntax highlighting.
+- [`report-extracted.txt`](report-extracted.txt): Full searchable text of the original report.
 - **Original PDF**: [`reports/annotated-Module3-1.pdf`](../../reports/annotated-Module3-1.pdf)
 
-## ⚡ Data & Dependencies
-- **Dependencies**: `numpy`, Python Standard Library
-- **Self-Contained**: Requires no external datasets; runs directly as an interactive game simulation or benchmark script.
+## ⚡ Execution & Dependencies
+```bash
+python main.py
+```
+- **Dependencies**: `pandas`, `numpy`, Python Standard Library

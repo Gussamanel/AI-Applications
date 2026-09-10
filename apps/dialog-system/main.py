@@ -1,8 +1,3 @@
-# Clean Source Listing: `dialog-system`
-
-This listing contains the cleaned, standardized Python implementation extracted from the PDF report.
-
-```python
 """
 Multi-Domain Conversational Assistant
 Authors: Elias Samantzis & Emrik Dunvald (Group 65)
@@ -133,4 +128,3 @@ if __name__ == '__main__':
     print("=== Multi-Domain Conversational Assistant ===")
     bot = MultiDomainChatBot()
     print("Bot Response:", bot.process_query("What is the weather in Delhi tomorrow?"))
-```

@@ -1,8 +1,3 @@
-# Clean Source Listing: `geotiff-classifier`
-
-This listing contains the cleaned, standardized Python implementation extracted from the PDF report.
-
-```python
 """
 PyTorch GeoTIFF Land-Cover Classifier
 Authors: Elias Samantzis & Emrik Dunvald (Group 65)
@@ -99,4 +94,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
